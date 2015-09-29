@@ -39,8 +39,8 @@ RSpec.describe FirstExercise, "#first excercise" do
       check_result array, result
     end
 
-    it "for array[i] calculates the product of all numbers except i" do
-      array = [-1,2,-3,-4,-1,5]
+    it "for array[i] calculates the product of all numbers except i with some positive numbers" do
+      array = [-1,2,-3,-4,-1,5,-11,4]
       result = FirstExercise.solve array
       check_result array, result
     end
