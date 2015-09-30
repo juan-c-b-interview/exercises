@@ -10,7 +10,7 @@ class SecondExercise
 
   # This function receives and array of integers and a target integer 'n', and returns true only if there are 2
   # integers in different positions of the array that together add up to 'n'.
-  def solve array, n
+  def self.solve array, n
     hash = {}
     array.each do |number|
       hash[number] = hash[number] ? hash[number] + 1 : 1
